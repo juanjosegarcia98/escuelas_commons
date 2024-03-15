@@ -10,7 +10,8 @@ dependencies:
 
  
   escuelas_client:
-    path: ../escuelas_client
+    git:
+      url: https://github.com/juanjosegarcia98/escuelas_client
 
   #Modelos  
   
