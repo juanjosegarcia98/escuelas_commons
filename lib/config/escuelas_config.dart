@@ -79,13 +79,13 @@ final class ConfigsRedemptorisMissio extends ConfigsDeInstancia {
         fechaFin: DateTime(anio, 7).subtract(const Duration(days: 1)),
       ),
       Periodo(
-        fechaInicio: DateTime(anio, 7),
-        fechaFin: DateTime(anio, 10).subtract(const Duration(days: 1)),
+        fechaInicio: DateTime(anio, 8),
+        fechaFin: DateTime(anio, 12).subtract(const Duration(days: 1)),
       ),
-      Periodo(
-        fechaInicio: DateTime(anio, 10),
-        fechaFin: DateTime(anio + 1).subtract(const Duration(days: 1)),
-      ),
+      // Periodo(
+      //   fechaInicio: DateTime(anio, 10),
+      //   fechaFin: DateTime(anio + 1).subtract(const Duration(days: 1)),
+      // ),
     ];
   }
 
